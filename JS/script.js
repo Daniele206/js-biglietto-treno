@@ -17,9 +17,11 @@ console.log(discountTiketOver65);
 
 let finalCostTiket = fullCostTiket;
 
-if(age < 18) finalCostTiket = fullCostTiket - discountTiketUnder18;
-
-if(age > 65) finalCostTiket = fullCostTiket - discountTiketOver65;
+if(age < 18){
+  finalCostTiket = fullCostTiket - discountTiketUnder18
+}else if(age > 65){
+  finalCostTiket = fullCostTiket - discountTiketOver65
+};
 
 console.log(finalCostTiket);
 
