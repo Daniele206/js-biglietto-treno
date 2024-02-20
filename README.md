@@ -18,3 +18,4 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 6. Sottrarre l'eventuale sconto al prezzo di base del biglietto.
 7. Comunicare il prezzo scontato in caso di etá compresa o comunicare prezzo di base in caso di etá non compresa.
 8. Far in modo che il prezzo del bigleitto sia con al massimo due decimali dopo la virgola.
+9. Abbellimenti finali estetici
