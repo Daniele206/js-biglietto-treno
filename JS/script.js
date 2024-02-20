@@ -23,6 +23,8 @@ if(age > 65) finalCostTiket = fullCostTiket - discountTiketOver65;
 
 console.log(finalCostTiket);
 
+const finalCostTiketApproximate = finalCostTiket.toFixed(2);
+
 document.getElementById('biglietto').innerHTML = `
-<p>Il costo del tuo biglietto é di: <strong>${finalCostTiket}&euro;</strong></p>
+<p>Il costo del tuo biglietto é di: <strong>${finalCostTiketApproximate}&euro;</strong></p>
 `
