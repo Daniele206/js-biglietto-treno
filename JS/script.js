@@ -25,6 +25,6 @@ console.log(finalCostTiket);
 
 const finalCostTiketApproximate = finalCostTiket.toFixed(2);
 
-document.getElementById('biglietto').innerHTML = `
+document.getElementById('costo-biglietto').innerHTML = `
 <p>Il costo del tuo biglietto é di: <strong>${finalCostTiketApproximate}&euro;</strong></p>
 `
